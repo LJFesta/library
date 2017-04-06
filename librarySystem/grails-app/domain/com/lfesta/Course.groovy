@@ -14,5 +14,16 @@ String description
 String studyMode
 
     static constraints = {
+title blank:false, nullable:false
+
+code blank:false, nullable:false
+
+leader blank:false, nullable:false
+
+department blank:false, nullable:false
+
+description blank:false, nullable:false, size 0..5000
+
+studyMode blank:false, nullable:false size 0..20
     }
 }
