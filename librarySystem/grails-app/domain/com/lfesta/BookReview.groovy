@@ -16,6 +16,6 @@ dateCreated blank:false, nullable:false
 
 student blank:false, nullable:false
 
-review blank:false, nullable:false, size:0..5000
+review blank:false, nullable:false, maxSize:5000
     }
 }

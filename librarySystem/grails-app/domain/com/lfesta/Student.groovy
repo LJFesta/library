@@ -1,6 +1,7 @@
 package com.lfesta
 
 class Student {
+
 String name
 
 String email
@@ -13,17 +14,18 @@ String studentId
 
 String course
 
-    static constraints = {
-name blank:false, nullable:false
+static constraints = {
 
-email blank:false, nullable:false
+name (blank:false, nullable:false)
 
-username blank:false, nullable:false, unique:true
+email (blank:false, nullable:false)
 
-password blank:false, nullable:false
+username (blank:false, nullable:false, unique:true)
 
-studentId blank:false, nullable:false
+password (blank:false, nullable:false)
 
-course blank:false, nullable:false
+studentId (blank:false, nullable:false)
+
+course (blank:false, nullable:false)
     }
 }
